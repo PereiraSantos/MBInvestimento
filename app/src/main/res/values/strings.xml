@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MBInvestimento</string>
+    <string name="Investimento">Investimento</string>
+    <string name="Informe_o_ativo">Inf: Codigo do ativo</string>
+    <string name="Informe_o_Lucro_Liquido">Inf: Lucro liquido</string>
+    <string name="Informe_N_emitidas_Bolsa">Inf: Ações emitidas na bolsa</string>
+    <string name="Informe_Preco_Atual">Inf: Preço Atual</string>
+    <string name="Informe_Pratrimonio_Liquido">Inf: Patrimonio Liquido</string>
+    <string name="Calcular_Investimento">Calcular Indicadores</string>
+    <string name="Lucroporação">Lucro Por Acao</string>
+    <string name="PrecoLucro">Preço Lucro</string>
+    <string name="RetornoPatrimônioLíquido">Retorno Patrimonio Liquido</string>
+    <string name="valorpatrimonialacao">Valor Patrimonial Acao</string>
+    <string name="PrecsobrevalorPatrimonial">Preco Sobre Pratrimonial</string>
+    <string name="Ativo">Ativo</string>
+    <string name="Sair">Sair</string>
+</resources>

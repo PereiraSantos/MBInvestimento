@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:textColor="#6666ff"
+        android:text="@string/Investimento"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center|center_vertical"
+        />
+
+    <EditText
+        android:id="@+id/Ativo"
+        android:layout_below="@id/Logo"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="@string/Informe_o_ativo"
+        android:inputType="text"
+        android:maxLength="20"
+
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/Lucro_Liquido"
+        android:layout_below="@id/Ativo"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="@string/Informe_o_Lucro_Liquido"
+        android:inputType="number"
+        android:maxLength="15"
+        />
+
+    <EditText
+        android:id="@+id/Patrimônio_Liquido"
+        android:layout_below="@id/Lucro_Liquido"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="@string/Informe_Pratrimonio_Liquido"
+        android:inputType="number"
+        android:maxLength="15"
+        />
+
+    <EditText
+        android:id="@+id/Emitidas_bolsa"
+        android:layout_below="@id/Patrimônio_Liquido"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="@string/Informe_N_emitidas_Bolsa"
+        android:inputType="number"
+        android:maxLength="15"
+        />
+
+    <EditText
+        android:id="@+id/Preco_Atual"
+        android:layout_below="@id/Emitidas_bolsa"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:hint="@string/Informe_Preco_Atual"
+        android:inputType="number"
+        android:maxLength="15"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center|center_vertical"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@id/Preco_Atual"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="validacao"
+        android:text="@string/Calcular_Investimento"
+        android:background="#00BCD4"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center|center_vertical"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@id/Preco_Atual"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:onClick="sair"
+        android:text="@string/Sair"
+        android:background="#DF00BCD4"
+
+        />
+
+</RelativeLayout>

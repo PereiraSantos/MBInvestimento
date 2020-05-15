@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultadoInvestimento">
+
+    <TextView
+        android:id="@+id/Ativo"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:textSize="20sp"
+        android:textColor="#6666ff"
+        android:text="@string/Ativo"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center|center_vertical"
+        />
+    <TextView
+        android:id="@+id/LPA"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:textSize="20sp"
+        android:textColor="#6666ff"
+        android:text="@string/Lucroporação"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@id/Ativo"
+        android:layout_marginTop="10dp"
+        android:gravity="center|center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/PL"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:gravity="center|center_vertical"
+        android:textColor="#6666ff"
+        android:textStyle="bold"
+        android:layout_below="@id/LPA"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/PrecoLucro"
+        />
+
+    <TextView
+        android:id="@+id/ROE"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:gravity="center|center_vertical"
+        android:textColor="#6666ff"
+        android:textStyle="bold"
+        android:layout_below="@id/PL"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/RetornoPatrimônioLíquido"
+        />
+
+    <TextView
+        android:id="@+id/VPA"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:gravity="center|center_vertical"
+        android:textColor="#6666ff"
+        android:textStyle="bold"
+        android:layout_below="@id/ROE"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/valorpatrimonialacao"
+        />
+
+    <TextView
+        android:id="@+id/PVP"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:gravity="center|center_vertical"
+        android:textColor="#6666ff"
+        android:textStyle="bold"
+        android:layout_below="@id/VPA"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/PrecsobrevalorPatrimonial"
+        />
+
+</RelativeLayout>
